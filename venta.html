@@ -63,47 +63,53 @@
 
        <main class="main-content">
              <div class="content-header">
-              <h2 class="page-title">Dashboard</h2>
-              <p class="page-description">Vista General del sistema</p>
+              <h2 class="page-title">VENTAS</h2>
+              <p class="page-description">Gestion de ventas</p>
              </div>
 
-           <section class="stats-section">
-             <div class="stats-grid">
-                <div class="stats-card">
-                    <div class="stats-icon">💵</div>
-                    <div class="stats-info">
-                        <h3 class = "stats-number">C$ 5,000</h3>
-                        <p class="stats-label">VENTAS</p>
-                    </div>
-                </div>
-                <div class="stats-card">
-                    <div class="stats-icon">🛒📦</div>
-                    <div class="stats-info">
-                        <h3 class = "stats-number">C$ 120</h3>
-                        <p class="stats-label">PRODUCTOS</p>
-                    </div>
-                </div>
-                <div class="stats-card">
-                    <div class="stats-icon">👥</div>
-                    <div class="stats-info">
-                        <h3 class = "stats-number">C$ 80</h3>
-                        <p class="stats-label">USUARIOS</p>
-                    </div>
-                </div>
-             </div>
-           </section>
+           <section class="Venta-section">
+              <h3 class="page-description">Realizar Venta</h3>
+              <div class="campo">
+                <input type="text" placeholder="Nombre del cliente">
+              </div>
+              <div class="campo">
+                <input type="text" placeholder="Producto">
+              </div>
+              <div class="campo">
+                <input type="text" placeholder="Precio">
+              </div>
+              <button class="btn-agregarProducto">+ Agregar Producto</button>
 
-           <div class="actividad">
-              <h3>Actividad Reciente</h3>
-              <div class="fila">🛒 Nueva Venta: Laptop HP - $500</div>
-              <div class="fila">👤 Nuevo Usuario: María López</div>
-              <div class="fila">📦 Nuevo Producto: iPhone 13</div>
-              <div class="fila">🛒 Nueva Venta: Mouse Gamer - $50</div>
-              <div class="fila">🛒 Nueva Venta: Laptop Hp - $500</div>
-              <div class="fila">🛒 Nueva Venta: iphone 12 - $400</div>
-              <div class="fila">🛒 Nueva Venta: Samsung Galaxy A16- $250</div>
-              
-            </div>
+            </section>
+
+            <section class="Venta-section">
+              <h3 class="page-description">Historial de Ventas</h3>
+              <div class="campo">
+                <input type="text" placeholder="Buscar Venta">
+              </div>
+
+              <table class="tabla">
+                <tr>
+                  <th>Cliente</th>
+                  <th>Producto</th>
+                  <th>Total</th>
+                </tr>
+
+                <tr>
+                  <td>Maria</td>
+                  <td>Laptop</td>
+                  <td>$500</td>
+                </tr>
+
+                <tr>
+                  <td>Juan</td>
+                  <td>iPhone</td>
+                  <td>$400</td>
+                </tr>
+              </table>
+                  
+
+            </section>
        </main>
   </body>
 </html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Panel</title>
+  </head>
+
+
+  <body>
+    
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">Panel Admin</h1>
+        <div class="user-info">
+          <span class="user-name"> Juan Perez</span>
+          <div class="user-avatar">JP</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text"> Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="producto.html" class="nav-link active">
+                <span class="nav-icon">💻</span>
+                <span class="nav-text"> Producto</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="venta.html" class="nav-link">
+                <span class="nav-icon">💵</span>
+                <span class="nav-text"> Venta</span>
+              </a>
+            </li>
+            <li>
+                <a href="usuario.html" class="nav-link ">
+                    <span class="nav-icon">👤</span>
+                    <span class="nav-text"> Usuario</span>
+                </a>
+            </li>
+            <li>
+                <a href="configuracion.html" class="nav-link ">
+                    <span class="nav-icon">⚙️</span>
+                    <span class="nav-text">Configuracion</span>
+                </a>
+            </li>
+          </ul>
+
+        </nav>
+      </aside>
+
+
+       <main class="main-content">
+             <div class="content-header">
+              <h2 class="page-title">Productos</h2>
+              <p class="page-description">Lista de productos</p>
+               <input type="text" class="buscadorDeProducto" placeholder="🔍  Buscar producto...">
+               <button class="btn-agregarProducto">+ Agregar Producto</button>
+             </div>
+
+        <section class="stats-section">
+
+          <div class="producto-grid">
+                
+                <div class="producto-card">
+                   <img src="https://th.bing.com/th/id/OIP.R5Zr_0iv6-FIAjr98l4aXAHaHa?w=203&h=203&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" >
+                   <div class="stats-info">
+                      <h3 class = "stats-number"> 💰$500</h3>
+                      <p class="stats-label"> Laptop HP, Intel Core i5, 8GB RAM, 512GB SSD, pantalla 15.6” Full HD.</p> 
+                   </div> 
+                </div>
+
+                <div class="producto-card">
+                   <img src="https://media.istockphoto.com/id/1296913405/es/foto/iphone-12-pro-sobre-fondo-blanco.jpg?s=612x612&w=0&k=20&c=1bXfzxWK_MB5-_uL_zc9UvtuWY_cRb-oeCSfuLxowtQ=">
+                   <div class="stats-info">
+                      <h3 class = "stats-number">💰$400</h3>
+                      <p class="stats-label">iphone 12, A14 Bionic, 4GB RAM, 128GB, pantalla 6.1</p>
+                    </div>
+                </div>
+
+                 
+                <div class="producto-card">
+                   <img src="https://th.bing.com/th/id/OIP.zwiY_BOwISfvOoOKVzbfcwHaEW?w=311&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" >
+                   <div class="stats-info">
+                      <h3 class = "stats-number"> 💰$250</h3>
+                      <p class="stats-label"> Galaxy Tab S3, 4GB RAM, 32GB, pantalla 9.7.</p> 
+                   </div> 
+                </div>
+
+                <div class="producto-card">
+                   <img src="https://th.bing.com/th/id/OIP.dbH4-iXchLIqa5TMjV7VsAHaIl?w=186&h=216&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" >
+                   <div class="stats-info">
+                      <h3 class = "stats-number"> 💰$40</h3>
+                      <p class="stats-label"> Smart Watch T900 Pro Max Infinite, Pantalla 2.0”, llamadas Bluetooth, monitoreo de salud</p> 
+                   </div> 
+                </div>
+
+             </div>
+           </section>
+       </main>
+  </body>
+</html>
