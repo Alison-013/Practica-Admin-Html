@@ -294,6 +294,20 @@ body {
 
 /*TODO LO DE VENTAS*/
 
+.btn-agregarVenta {
+  margin-top:15px ;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-agregarVenta:hover {
+  background-color: #1b5fbd;
+}
 .campo {
   margin-bottom: 15px;
 }
@@ -328,6 +342,7 @@ table {
   overflow: hidden; /*para que no se salga nada del borde*/
   border-collapse: collapse;
   background: white;
+ 
 }
 
 th {
@@ -340,3 +355,128 @@ td {
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
+
+/*TODO LO DE USUARIO*/
+.Usuario-section
+{
+  margin-bottom:5px;
+  background: white;  /* fondo blanco */
+  padding: 20px;    /* espacio interno */
+  border-radius: 12px;  /* bordes redondos */
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1); /*sombra */
+}
+
+.campoUsuario{
+  margin-bottom: 15px;
+  display: flex;      /* 👈 los pone en fila */
+  gap: 10px;          /* espacio entre ellos */
+}
+
+.campoUsuario input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+/* efecto cuando haces clic */
+.campoUsuario input:focus {
+  outline: none;
+  border-color: #2d89ef;
+  background-color: white;
+}
+.btn-Activo {
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-Activo:hover {
+  background-color: #1b5fbd;
+}
+
+.btn-Inactivo {
+  background-color: #f78c8d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-Inactivo:hover {
+  background-color: #ee7173;
+}
+.btn-agregarUsuario {
+  margin-top:15px ;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-agregarUsuario:hover {
+  background-color: #1b5fbd;
+}
+
+/*TODO LO DE CONFIGURACION*/
+.Configuracion-section
+{
+  margin-bottom:5px;
+  background: white;  /* fondo blanco */
+  padding: 20px;    /* espacio interno */
+  border-radius: 12px;  /* bordes redondos */
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1); /*sombra */
+}
+
+.campoConfiguracion {
+  margin-bottom: 15px;
+}
+
+.campoConfiguracion input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+/* efecto cuando haces clic */
+.campoConfiguracion input:focus {
+  outline: none;
+  border-color: #2d89ef;
+  background-color: white;
+}
+
+.pageConfiguracion-title{
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: var(--spacing-xs);
+}
+
+
+.btn-CambiarDeCuenta{
+  margin-top:15px ;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left:500px ;
+}
+
+.btn-CambiarDeCuenta:hover {
+  background-color: #1b5fbd;
+}
+

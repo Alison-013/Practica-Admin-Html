@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Panel</title>
+  </head>
+
+
+  <body>
+    
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">Panel Admin</h1>
+        <div class="user-info">
+          <span class="user-name"> Juan Perez</span>
+          <div class="user-avatar">JP</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link ">
+                <span class="nav-icon"> 🏠</span>
+                <span class="nav-text"> Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="producto.html" class="nav-link">
+                <span class="nav-icon"> 💻</span>
+                <span class="nav-text"> Producto</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="venta.html" class="nav-link">
+                <span class="nav-icon"> 💵</span>
+                <span class="nav-text"> Venta</span>
+              </a>
+            </li>
+            <li>
+                <a href="usuario.html" class="nav-link ">
+                    <span class="nav-icon"> 👤</span>
+                    <span class="nav-text"> Usuario</span>
+                </a>
+            </li>
+            <li>
+                <a href="configuracion.html" class="nav-link active">
+                    <span class="nav-icon"> ⚙️</span>
+                    <span class="nav-text">Configuracion</span>
+                </a>
+            </li>
+          </ul>
+
+        </nav>
+      </aside>
+
+
+       <main class="main-content">
+             <div class="content-header">
+              <h2 class="pageConfiguracion-title">CONFIGURACION</h2>
+              <p class="page-description"> Gestion de Configuraciones</p>
+             </div>
+
+           <section class="Configuracion-section">
+             <div class="stats-grid">
+
+                <div class="stats-card">
+                   <h2 class="pageConfiguracion-title">Datos del sistema🗒️</h2>
+                    <div class="stats-info">
+                       <div class="campoConfiguracion">
+                         <Label>NOMBRE DEL LUGAR</Label>
+                         <input type="text" placeholder="TecnoIA">
+                         <Label>DIRECCION</Label>
+                         <input type="text" placeholder="Del pali 2c al sur">
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-card">
+                   <h2 class="pageConfiguracion-title"> CUENTA👤</h2>
+                    <div class="stats-info">
+                       <div class="campoConfiguracion">
+                         <Label>Usuario</Label>
+                         <input type="text" placeholder="Juan Perez">
+                         <Label>Contraseña</Label>
+                         <input type="text" placeholder="xxxxxxxxxx">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-card">
+                    <h2 class="pageConfiguracion-title"> APARIENCIA (Claro/oscuro)</h2>
+                    <div class="stats-info">
+                       <div class="campoConfiguracion">
+                         <Label>Tema</Label>
+                         <input type="text" placeholder="Claro                                ⬇">
+                        
+                        </div>
+                    </div>
+                </div>
+             </div>
+           </section>
+           <button class="btn-CambiarDeCuenta"> ⬅️ Cambiar de Cuenta</button>
+     
+
+       </main>
+  </body>
+</html>

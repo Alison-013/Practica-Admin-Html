@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Admin Panel</title>
+  </head>
+
+
+  <body>
+    
+    <header class="header">
+      <div class="header-content">
+        <h1 class="logo">Panel Admin</h1>
+        <div class="user-info">
+          <span class="user-name"> Juan Perez</span>
+          <div class="user-avatar">JP</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link ">
+                <span class="nav-icon"> 🏠</span>
+                <span class="nav-text"> Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="producto.html" class="nav-link">
+                <span class="nav-icon"> 💻</span>
+                <span class="nav-text"> Producto</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="venta.html" class="nav-link">
+                <span class="nav-icon"> 💵</span>
+                <span class="nav-text"> Venta</span>
+              </a>
+            </li>
+            <li>
+                <a href="usuario.html" class="nav-link active">
+                    <span class="nav-icon"> 👤</span>
+                    <span class="nav-text"> Usuario</span>
+                </a>
+            </li>
+            <li>
+                <a href="configuracion.html" class="nav-link ">
+                    <span class="nav-icon"> ⚙️</span>
+                    <span class="nav-text">Configuracion</span>
+                </a>
+            </li>
+          </ul>
+
+        </nav>
+      </aside>
+
+
+       <main class="main-content">
+             <div class="content-header">
+              <h2 class="page-title">USUARIOS</h2>
+              <p class="page-description">Gestion Usuarios</p>
+             </div>
+
+            <section class="Usuario-section">
+              <h3 class="page-description">Lista de Usuarios</h3>
+              <div class="campoUsuario">
+                <input type="text" placeholder="Buscar Usuario">
+                <input type="text" placeholder="Buscar por Rol">
+                <input type="text" placeholder="Buscar por estado">
+              </div>
+
+              <table class="tabla">
+                <tr>
+                  <th>Usuario</th>
+                  <th>Gmail</th>
+                  <th>Rol</th>
+                  <th>Estado</th>
+                </tr>
+
+                <tr>
+                  <td>Maria</td>
+                  <td>Mari2@gmail.com</td>
+                  <td>Administradora</td>
+                  <td><button class="btn-Activo">+ Activo</button></td>
+                </tr>
+
+                <tr>
+                  <td>Juan</td>
+                  <td>Juan87@gmail.com</td>
+                  <td>Vendedor</td>
+                  <td><button class="btn-Inactivo">+ Inactivo</button></td>
+
+                </tr>
+              </table>
+            </section>
+
+            <section class="Usuario-section">
+              <h3 class="page-description">Registrar Usuario</h3>
+              <div class="campo">
+                <input type="text" placeholder="Nombre del Usuario">
+              </div>
+              <div class="campo">
+                <input type="text" placeholder="Gmail">
+              </div>
+              <div class="campo">
+                <input type="text" placeholder="Rol">
+              </div>
+              <div class="campo">
+                <input type="text" placeholder="Estado">
+              </div>
+              <button class="btn-agregarUsuario">+ Agregar Usuario</button>
+
+            </section>
+       </main>
+  </body>
+</html>
