@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout Unificado Grid</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <div class="dashboard">
+            <header class="dashboard-header">
+                <h1>Dashboard</h1>
+                <div class="user-info">
+                    <span class="user-name"> Alison Villa   </span>
+                    <div class="user-avatar">AV</div>
+                </div>
+            </header>
+
+            <nav class="nav">Navigation
+                <section class="stats-grid">
+                    <div class="stat-card active">🏠Dashboard</div>
+                    <div class="stat-card">📦Pedidos</div>
+                    <div class="stat-card">👥Usuarios</div>
+                    <div class="stat-card">⚙️Configuracion</div>
+                </section>
+            </nav>
+
+            <div class="dashboard-content">
+              
+                <div class="row">
+                    <div class="card">PEDIDOS DE ENERO - JUNIO📋
+                        <p>🗓️Enero: 200</p> 
+                        <p>🗓️Febrero: 300</p>
+                        <p>🗓️Marzo: 200</p>
+                        <p>🗓️Abril: 200</p>
+                        <p>🗓️Mayo: 300</p>
+                        <p>🗓️Junio: 500</p>
+                    </div>
+
+                    <div class="chart">
+                        <div class="bar-container">
+                            <div class="bar" style="height: 40%; background-color:rgb(245, 106, 106);">
+                                <span>200</span>
+                            </div>
+                            <p>Enero📉</p>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 60%; background-color: rgb(238, 198, 123);">
+                                <span>300</span>
+                            </div>
+                            <p>Febrero</p>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 40%; background-color: rgb(245, 106, 106);">
+                                <span>200</span>
+                            </div>
+                            <p>Marzo📉</p>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 40%; background-color: rgb(245, 106, 106);">
+                                <span>200</span>
+                            </div>
+                            <p>Abril📉</p>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 60%; background-color: rgb(238, 198, 123);">
+                                <span>300</span>
+                            </div>
+                            <p>Mayo</p>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 80%; background-color: green;">
+                                <span>500</span>
+                            </div>
+                            <p> Junio📈</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="card">PRODUCTOS MAS VENDIDOS💵
+                        <p> 🥛Lacteos: 1000</p> 
+                        <p> 🥐Panaderia: 300</p>
+                        <p> 🥫Enlatados: 500</p>
+                        <p> 🥩Carnes: 2000</p>
+                        <p> 🥕Verduras: 800</p>
+                        <p> 🍾Bebidas: 1500</p>
+                    </div>
+                    <div class="chart">
+                        <div class="bar-container">
+                            <div class="bar" style="height: 60%; background-color:rgb(238, 198, 123);">
+                            <span>1000</span>
+                            </div>
+                            <p> 🥛Lacteos </p>
+                        </div>
+                        
+                    <div class="bar-container">
+                            <div class="bar" style="height: 40%; background-color: rgb(235, 77, 77);">
+                            <span>300</span>
+                            </div>
+                            <p> 🥐Panaderia </p>
+                    </div>
+                    
+                        <div class="bar-container">
+                            <div class="bar" style="height: 45%; background-color: rgb(235, 91, 91);">
+                            <span>500</span>
+                            </div>
+                            <p> 🥫Enlatados </p>
+                        </div>
+                    
+                        <div class="bar-container">
+                            <div class="bar" style="height: 100%; background-color: green;">
+                            <span>2000</span> 
+                            </div>
+                            <p> 🥩Carnes </p>
+                        </div>
+                    
+                        <div class="bar-container">
+                            <div class="bar" style="height: 50%; background-color: rgb(245, 106, 106);">
+                            <span>800</span>
+                            </div>
+                            <p>🥕Verduras</p>
+                        </div>
+                        
+                        <div class="bar-container">
+                            <div class="bar" style="height: 80%; background-color: rgb(83, 197, 83);">
+                            <span>1500</span>
+                            </div>
+                            <p>🍾Bebidas</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <aside class="sidebar">Sidebar
+                <section class="stats-grid">
+                    <div class="stat-card active">Graficos📊</div>
+                    <div class="stat-card">🛒Ventas: $45,678</div>
+                    <div class="stat-card">👥Usuarios: 1,234</div>
+                    <div class="stat-card">💰Ingresos: $20,345</div>
+                </section>
+            </aside>
+            
+            <footer class="footer">Footer
+            </footer>
+        </div>   
+        
+    </body>
+</html>  
